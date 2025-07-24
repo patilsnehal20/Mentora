@@ -37,7 +37,7 @@ Core Concept: Implementation of real-world systems using Data Structures & Algor
 
 
 
- Data Structure                   : Purpose   
+ **Data Structure**               : **Purpose**   
  
 
  PriorityQueue                    : Max Heap for showing top 3 performers in leaderboard   
@@ -59,7 +59,7 @@ Core Concept: Implementation of real-world systems using Data Structures & Algor
 **Smart Question Generator – Data Structures Used**
 
 
- Data Structure              :    Purpose                                                      
+ **Data Structure**          :    **Purpose**                                                      
 
  
  ArrayList                   :    Storing & filtering questions (filters, suggestions, etc.) 
@@ -70,7 +70,7 @@ Core Concept: Implementation of real-world systems using Data Structures & Algor
  
 
 
- Data Structure / Algo         : Used For
+ **Data Structure / Algo**     : **Used For**
  
  HashMap<String, Integer>      : Maps student ID to number of cheating attempts      
  
@@ -90,15 +90,15 @@ Core Concept: Implementation of real-world systems using Data Structures & Algor
 
 **1.Login Authentication (Student/Admin)**
 
-**2.Dashboard:**
+**2.Dashboard :**
 
 Personalized greeting
 
 Top 3 scorers leaderboard (DSA-based Max Heap)
 
-3.Actions: Revise or Start Test 
+**3.Actions :** Revise or Start Test 
 
-**4.Revise Section:**
+**4.Revise Section :**
 
 Filter questions by Topic, Subtopic, and Difficulty
 
@@ -113,7 +113,7 @@ Reset Filters
 Back Navigation
 
 
-**5.Start Test:**
+**5.Start Test :**
 
 Adaptive Difficulty based on responses - where in for every right answer, the next question is of higher difficulty, and on the contrary for every wrong answer, the difficulty of the next question drops accordingly.
 
@@ -122,7 +122,7 @@ Adaptive Timer based on difficulty level - timer changes dynamically according t
 Power-Up System: Upon pressing this button, 2x points for correct answers, -1 for incorrect. (special feature)
 
 
-**6.Anti-cheating Features:**
+**6.Anti-cheating Features :**
 
 Tab Switch Detection
 
@@ -131,7 +131,7 @@ Inactivity Detection
 Window Minimization
 
 
-**7.Post-Test Options:**
+**7.Post-Test Options :**
 
 Review (question-by-question feedback)
 
@@ -159,6 +159,8 @@ Post-Test            → Review answers and get analytics-based summary
 
 Admin Panel          → Access session logs and cheating reports
 
+
+**Demo output :**   https://drive.google.com/file/d/1j-sK5JGFLIcsoceTGsW9dY3Q0ur-Psxg/view?usp=sharing
 
 
 **Future Enhancements**

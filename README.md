@@ -1,8 +1,10 @@
-Oerview 
+**Mentora – DSA-Powered Smart Learning & Exam Platform**
+
+**Overview **
 
 Mentora is an integrated, intelligent, and secure platform for learning, assessment, and performance tracking, built with Java, MySQL, and a strong foundation in Data Structures & Algorithms (DSA). It empowers both students and educators with adaptive learning tools, robust exam security features, and actionable analytics for academic growth.
 
-Problem Statement :
+**Problem Statement :**
 
 In the current educational landscape, students and educators struggle with fragmented study resources, inefficient assessment methods, academic dishonesty, and lack of personalized performance tracking. Traditional systems fail to offer an integrated approach that seamlessly connects learning, examinations, and progress analysis in a structured and adaptive manner.
 
@@ -15,7 +17,7 @@ Provide adaptive assessments that dynamically adjust difficulty and timer based 
 Offer insightful post-exam analysis to help students improve over time.
 
 
-Tech Stack
+**Tech Stack**
 
 Programming Language: Java (Swing for GUI)
 Database: MySQL
@@ -24,7 +26,7 @@ Core Concept: Implementation of real-world systems using Data Structures & Algor
 
 
 
-Data Structures Used (DSA-Centric Implementation)
+**Data Structures Used (DSA-Centric Implementation)**
 
 
  Data Structure                : Purpose                                                    
@@ -38,7 +40,7 @@ Data Structures Used (DSA-Centric Implementation)
  HashMap<String, Integer>      : Aggregates per-topic scores for post-exam analysis        
 
 
-Smart Question Generator – Data Structures Used
+**Smart Question Generator – Data Structures Used**
 
  Data Structure              :    Purpose                                                      
  
@@ -55,19 +57,19 @@ Smart Question Generator – Data Structures Used
  KMP Algorithm                 : Used for efficient plagiarism detection in subjective answers
 
 
-Key Features
+**Key Features**
 
-Student Module
+**Student Module**
 
-Login Authentication (Student/Admin)
+1.Login Authentication (Student/Admin)
 
-Dashboard:
+2.Dashboard:
 
 Personalized greeting
 Top 3 scorers leaderboard (DSA-based Max Heap)
 Actions: Revise or Start Test 
 
-Revise Section:
+3.Revise Section:
 
 Filter questions by Topic, Subtopic, and Difficulty
 “Suggest Questions” based on past performance
@@ -76,29 +78,31 @@ Load All Questions
 Reset Filters
 Back Navigation
 
-Start Test:
+4.Start Test:
 
 Adaptive Difficulty based on responses - where in for every right answer, the next question is of higher difficulty, and on the contrary for every wrong answer, the difficulty of the next question drops accordingly.
 Adaptive Timer based on difficulty level - timer changes dynamically according to the difficulty of the question.
 Power-Up System: Upon pressing this button, 2x points for correct answers, -1 for incorrect. (special feature)
 
-Anti-cheating Features:
+5.Anti-cheating Features:
+
 Tab Switch Detection
 Inactivity Detection
 Window Minimization
 
-Post-Test Options:
+6.Post-Test Options:
 
 Review (question-by-question feedback)
 Summary (performance graph + areas of improvement)
 
 
-Admin Module
+**Admin Module**
+
 View cheating logs with timestamps and student IDs
 Monitor exam sessions and track student-wise progress
 
 
-Code Flow Summary
+**Code Flow Summary**
 
 Login             → Role selection (Student/Admin)
 Student Dashboard → View leaderboard, choose Revise or Start Test
@@ -108,7 +112,7 @@ Post-Test         → Review answers and get analytics-based summary
 Admin Panel       → Access session logs and cheating reports
 
 
-Future Enhancements
+**Future Enhancements**
 
 AI-driven Smart Question Recommendation System
 PDF/Excel Export for Reports
@@ -116,7 +120,7 @@ Cloud Deployment & Real-Time Exam Hosting
 Mobile-Responsive Design for All Devices
 
 
-Setup Instructions
+**Setup Instructions**
 
 Clone this repository.
 Create the required tables in MySQL
